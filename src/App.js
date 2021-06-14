@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import DisplayWeather from './components/DisplayWeather.js';
 import Header from './components/Header.js';
+import Footer from './components/Footer.js';
 
 class App extends React.Component {
 
@@ -97,6 +98,7 @@ class App extends React.Component {
         <div className="container">
           <Header changeWeather={this.weatherChange} changeCity = {this.cityChange} />
           <DisplayWeather weatherData = {this.state.data} />
+          <Footer />
         </div>
       </div>
     );
