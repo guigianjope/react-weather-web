@@ -95,11 +95,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div className="container">
           <Header changeWeather={this.weatherChange} changeCity = {this.cityChange} />
           <DisplayWeather weatherData = {this.state.data} />
           <Footer />
-        </div>
       </div>
     );
   }
