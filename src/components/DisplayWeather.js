@@ -11,7 +11,7 @@ function DisplayWeather(props) {
                     <h2>{props.weatherData.city}, {props.weatherData.country}</h2>
                 </div>
                 <div className="icon">
-                <img src={`http://openweathermap.org/img/wn/${props.weatherData.icon}@2x.png`} alt="weatherIcon" />
+                    <img src={`http://openweathermap.org/img/wn/${props.weatherData.icon}@2x.png`} alt="weatherIcon" />
                 </div>
                 <div className="temperature">
                     <h1>{props.weatherData.temperature} °F</h1>

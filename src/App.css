@@ -8,7 +8,7 @@
 
 body{
   height: 100vh;
-  background: linear-gradient(white 10%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 85%, white 95%), url('./assets/weather-bg.jpg');
+  background: linear-gradient(white 10%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 90%, white 95%), url('./assets/weather-bg.jpg');
   background-size: 100%;
   font-family: 'RocknRoll One', sans-serif;
 }
