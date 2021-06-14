@@ -89,7 +89,7 @@ class App extends React.Component {
 
       this.setState({data: weatherData});
       })
-
+      .catch(error => alert ('This city does not exist. Try again!!!'));
   }
 
   render() {
